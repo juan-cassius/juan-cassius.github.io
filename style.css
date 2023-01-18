@@ -1,5 +1,36 @@
-body{
-    background-color: hsl(232, 87%, 54%);
-    color: antiquewhite;
-    text-align: center;
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(175, 175, 175);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.nav-bar {
+  border: 2px solid red;
+  text-align: center;
+}
+.principal {
+  border: 2px solid green;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.menu-lateral {
+  border: 2px solid blue;
+  width: 200px;
+  height: 200px;
+}
+.aboutme-title {
+  font-size: larger;
+}
+#foto {
+object-position: center;
+  border: 2px solid red;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;   
 }
